@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient( to bottom left, rgb(242, 169, 95),rgb(147, 46, 198));
+    display: grid;
+    place-items: center;
+}
+.container {
+    background-color: rgba(240, 248, 255, 0.466);
+    border-radius: 20px;
+    height: 400px;
+    width: 350px;
+    margin-top: 80px;
+    padding-top: 50px;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 30px 30px 0px 200px ;
+    grid-row-gap:40px;
+}
+.alltext{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(150, 23, 63);
+    text-shadow: 2px 1px 2px rgb(220, 220, 220);
+}
+
+.answer{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(59, 15, 116);
+    text-shadow: 1px 1px 1px rgb(198, 195, 195);   
+}
+.boxes{
+    border: none;
+    border-radius: 6%;
+    margin-left: 10px;
+    height: 20px;
+    padding: 6px;
+}
+.btns{
+    background-image: linear-gradient(to bottom right,rgb(232, 80, 123),rgb(172, 41, 139));
+    color: white;
+    cursor: pointer;
+    text-shadow: 2px 1px 2px rgb(63, 63, 63);
+    border-radius: 8%;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
+.box3{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 120px 80px;
+    grid-template-rows: 150px 50px 50px;
+    grid-row-gap:10px;
+    grid-template-areas: "header header"
+}
+.gr1{
+    grid-area:header;
+}
